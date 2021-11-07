@@ -13,17 +13,17 @@ imenu.onclick = function(){
 }
 
 navdugme1.onclick = function(){
-    menu.style.right = "-60%";
+    menu.style.right = "-100%";
 }
 navdugme2.onclick = function(){
-    menu.style.right = "-60%";
+    menu.style.right = "-100%";
 }
 navdugme3.onclick = function(){
-    menu.style.right = "-60%";
+    menu.style.right = "-100%";
 }
 navdugme4.onclick = function(){
-    menu.style.right = "-60%";
+    menu.style.right = "-100%";
 }
 navdugme5.onclick = function(){
-    menu.style.right = "-60%";
+    menu.style.right = "-100%";
 }
