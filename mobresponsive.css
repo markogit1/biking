@@ -1,0 +1,517 @@
+@media (max-width: 520px) {
+#hero{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}    
+#wallpaper{
+    display: none;
+}
+#content{
+    width: 100%;
+}
+#pomocni{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#pomocni :nth-child(1){
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0px;
+    padding: 5px 5px;
+}
+#pomocni :nth-child(2){
+    font-size: 45px;
+    color: #333;
+    margin-bottom: 0px;
+    padding: 5px 5px;
+}
+#pomocni :nth-child(3){
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 3px;
+    padding: 5px 5px;
+}
+#pomocni :nth-child(4){
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+    padding: 5px 5px;
+}
+#pomocni button{
+    outline: none;
+    border: 0;
+    background-color: rgb(113, 191, 255);
+    color: white;
+    font-size: 15px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#navbar h5{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 5px;
+    color: #333;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#imenu{
+    position: fixed;
+    right: 10%;
+    top: 1.5%;
+    z-index: 20;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(113, 191, 255);
+    padding: 10px;
+}
+#menu{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0%;
+    right: -100%;
+    background-color: rgb(0, 25, 46);
+    transition: 0.5s;
+}
+#ikonice{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #333;
+    padding-left: 10px;
+}
+#ikonice i{
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/*-----------------------------------*/
+#hero2{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#naslov{
+    top: 5%;
+}
+#naslov h3{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#naslov h3::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+}
+#content2{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about{
+    width: 100%;
+    height: 280px;
+    margin-top: -50px;
+}
+#about p{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+#slikaabout{
+    width: 95%;
+    height: 300px;
+    margin-top: -50px;
+    position: relative;
+    overflow: hidden;
+}
+#slikaabout img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#slikaabout h3{
+    font-size: 45px;
+}   
+/*-----------------------------------*/
+#hero3{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 300vh;
+}
+#naslov2{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 1.25%;
+}
+#naslov2 h3{
+    color: rgba(113, 191, 255);
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#naslov2 h3::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 25, 46);
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+}
+#naslov2 p{
+    max-width: 600px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 10px;
+    color: #333;
+}
+#content3{
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    top: 11%;
+    transform: translateY(-11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content3 div{
+    width: 300px;
+    height: 350px;
+    margin: 10px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    transition: 0.5s;
+}
+#content3 div i{
+    margin-top: 40px;
+    font-size: 50px;
+    color: #333;
+    transition: 0.5s;
+}
+#content3 div h5{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #333;
+    transition: 0.5s;
+}
+#content3 div p{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 300;
+    transition: 0.5s;
+}
+#content32{
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    top: 13%;
+    transform: translateY(-13%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content32 div{
+    width: 300px;
+    height: 350px;
+    margin: 10px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    transition: 0.5s;
+}
+#content32 div i{
+    margin-top: 40px;
+    font-size: 50px;
+    color: #333;
+    transition: 0.5s;
+}
+#content32 div h5{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #333;
+    transition: 0.5s;
+}
+#content32 div p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 300;
+    transition: 0.5s;
+}
+/*-----------------------------------*/
+#hero4{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 250vh;
+}
+#naslov3{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 0%;
+}
+#naslov3 h3{
+    color: rgba(113, 191, 255);
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#naslov3 h3::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 25, 46);
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+}
+#naslov3 p{
+    max-width: 600px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    padding: 5px 10px;
+}
+#content4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content4 div{
+    width: 225px;
+    height: 225px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+#content4 div img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#content4 div h1{
+    font-size: 35px;
+}
+#content42{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content42 div{
+    width: 225px;
+    height: 225px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+#content42 div img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#content42 div h1{
+    font-size: 35px;
+}
+/*-----------------------------------*/
+#hero5{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#naslov4{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 5%;
+}
+#naslov4 h3{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#naslov4 h3::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+}
+#naslov4 p{
+    max-width: 600px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 5px 10px;
+}
+#row1{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#row2{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#row3{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#row4{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#content5 form input{
+    width: 340px;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 0 10px;
+    margin: 5px auto;
+}
+#textarea{
+    width: 90%;
+    height: 70px;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 5px 10px;
+}
+#submit{
+    outline: none;
+    border: 0;
+    background-color: rgb(113, 191, 255);
+    color: white;
+    font-size: 20px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(0, 16, 29);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+}
